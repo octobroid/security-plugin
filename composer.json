@@ -1,0 +1,14 @@
+{
+    "name": "vhiweb/security-plugin",
+    "type": "october-plugin",
+    "description": "No description provided yet...",
+    "require": {
+        "composer/installers": "~1.0",
+        "spatie/laravel-csp": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
