@@ -9,7 +9,7 @@ class CompleteSecurityHeaders
 
     public function __construct()
     {
-        $this->allowAppEnvironments = config('vhiweb_security.unwanted_headers', ['production']);
+        $this->allowAppEnvironments = config('vhiweb_security.allow_app_environments', ['production']);
         $this->unwantedHeaders = config('vhiweb_security.unwanted_headers', ['X-Powered-By', 'server', 'Server']);
     }
 
